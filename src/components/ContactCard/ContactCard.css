@@ -1,0 +1,84 @@
+.contact-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  margin: 0.35rem;
+}
+
+.contact-avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: yellow;
+  color: yellow;
+  transition: all 0.3s ease;
+}
+
+.contact-details {
+  flex: 1;
+  background-color: transparent;
+
+ 
+}
+
+.contact-name {
+  font-size: 1.2em;
+  margin-bottom: 1px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.contact-email {
+  font-size: 0.95em;
+  color: #555;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 0.8rem;
+  background-color: transparent;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+
+
+  .contact-avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .contact-name {
+    font-size: 0.8rem;
+  }
+
+  .contact-email {
+    font-size: 0.80rem;
+  }
+
+  .contact-actions {
+    margin-top: 0.5rem;
+    align-self: flex-end;
+  }
+
+  .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

@@ -1,0 +1,43 @@
+.search-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 1rem 0;
+}
+
+.search-input {
+  flex: 1;
+padding: 0.45rem 0.75rem;
+color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color:  #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+.add-icon {
+  width: 4rem;
+  height: 4rem;
+  background-color:white; /* red background circle */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-icon-text {
+  font-size: 5.5rem;
+  line-height: 1;
+  transform: scale(0.6); /* keep big visual size inside circle */
+  color: black; /* white + symbol */
+  background-color: transparent;
+
+}

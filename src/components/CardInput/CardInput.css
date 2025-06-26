@@ -1,0 +1,51 @@
+.card-input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.input-field {
+  padding: 0.45rem 0.75rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+   color: white;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .card-input {
+    padding: 0.5rem;
+  }
+
+  .input-field {
+    font-size: 0.95rem;
+    padding: 0.6rem 0.9rem;
+  }
+}
+.submitBtn {
+  background-color: #007bff; /* Blue color */
+  color: #fff;               /* White text */
+  border: none;
+  padding: 0.625rem 1.25rem;       /* 10px 20px */
+  font-size: 1rem;                /* 16px */
+  font-weight: 500;
+  border-radius: 0.5rem;         /* 8px */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.625rem;          /* 10px */
+}
+
+.submitBtn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
